@@ -39,7 +39,7 @@ public class Customer {
     }
 
     void displayOrderDetails() {
-        if (items < 0) {
+        if (items == 0) {
             System.out.println("No Orders Yet!: ");
             return;
         }
